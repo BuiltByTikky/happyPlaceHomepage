@@ -1,0 +1,123 @@
+  
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+}
+
+#hero{
+    color: white;
+    width: 720px;
+    height: 340px;
+    background-image: url(images/lighthouseMtk.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.hero-text{
+    width: 230px;
+    height: 30px;
+    margin:auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0077B6;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    opacity: 80%;
+}
+.hero-subtext{
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #669BBC;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    
+}
+#activity-container{
+    width: 720px;
+    height: 340px;
+    background-color: #D9D4c6;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.activity{
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.places{
+    width: 200px;
+    height: 230px;
+ 
+}
+.activity-item{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+#avatar{
+    width: 180px;
+    height: 250px;
+    border-radius: 4px; 
+    border: 4px solid #EFEFD0;
+   
+}
+#avatar:hover {
+    transform: scale(1.2); 
+}
+
+#card-container{
+    width: 720px;
+    height: 340px;
+    opacity: 1px;
+    margin: auto;
+    background-color: #CCD5AE;
+    padding-top: 30px;
+}
+
+#card{
+    width: 450px;
+    height: 250px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background: #DDA15E;
+    color: #EFEFD0;
+    font-weight: 300;
+    box-shadow: 0px 5px 5px #606c38;
+}
